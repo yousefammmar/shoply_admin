@@ -1,0 +1,48 @@
+name: shoply_admin
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  animations: ^3.0.0
+  cached_network_image: ^4.0.3
+  cloud_firestore: ^6.10.0
+  dartz: ^0.10.1
+  firebase_auth: ^6.7.0
+  firebase_core: ^4.15.0
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  flutter_bloc: ^9.1.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_secure_storage: ^11.2.0
+  google_nav_bar: ^5.0.7
+  image_picker: ^1.2.3
+  intl: any
+  pro_dialog: ^1.0.9
+  shared_preferences: ^2.5.5
+  supabase_flutter: ^2.18.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  fonts:
+    - family: Quiksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Light.ttf
+        - asset: assets/fonts/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand-Medium.ttf
+        - asset: assets/fonts/Quicksand-SemiBold.ttf
+        - asset: assets/fonts/Quicksand-Bold.ttf
+

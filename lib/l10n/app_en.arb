@@ -1,0 +1,344 @@
+{
+  "@@locale": "en",
+  "appTitle": "Shoply Seller",
+  "sellerApp": "Seller App",
+  "gotIt": "Got it",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "pleaseWait": "Please wait...",
+  "orContinueWith": "or continue with",
+  "save": "Save",
+  "saved": "Saved",
+  "saveError": "Save Error",
+  "delete": "Delete",
+  "edit": "Edit",
+  "active": "Active",
+  "inactive": "Inactive",
+  "all": "All",
+  "loading": "Loading...",
+  "notSet": "Not set",
+  "inStock": "In Stock",
+  "outOfStock": "Out of Stock",
+  "updateFailed": "Update failed: {error}",
+  "@updateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteFailed": "Delete failed: {error}",
+  "@deleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "unexpectedError": "Unexpected error: {error}",
+  "@unexpectedError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noOrdersYet": "No orders yet",
+  "home": "Home",
+  "products": "Products",
+  "orders": "Orders",
+  "more": "More",
+  "customers": "Customers",
+  "customer": "Customer",
+  "today": "Today",
+  "email": "Email",
+  "password": "Password",
+  "fullName": "Full Name",
+  "confirmPassword": "Confirm Password",
+  "emailRequired": "Email is required",
+  "emailInvalid": "Email is not valid",
+  "passwordRequired": "Password is required",
+  "fullNameRequired": "Full Name is required",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "passwordWeak": "Password must contain at least one uppercase letter and one special character",
+  "confirmPasswordRequired": "Confirm Password is required",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "welcomeBack": "Welcome Back",
+  "signInSubtitle": "Sign in to manage your store",
+  "logIn": "Log In",
+  "forgotPassword": "Forgot Password?",
+  "signInWithGoogle": "Sign in with Google",
+  "dontHaveAccount": "Don't have an account?",
+  "signUp": "Sign Up",
+  "loginError": "Login Error",
+  "createAccount": "Create Your Account",
+  "signupSubtitle": "Start managing your store",
+  "signUpWithGoogle": "Sign up with Google",
+  "alreadyHaveAccount": "Already have an account?",
+  "signupError": "Sign Up Error",
+  "requestSent": "Request Sent",
+  "signupSuccessMessage": "Your account was created. You can log in once the store owner approves it.",
+  "forgotPasswordSubtitle": "Enter your email and we'll send\nyou a reset link.",
+  "sendResetLink": "Send Reset Link",
+  "backToLogin": "Back to Login",
+  "forgotPasswordError": "Forgot Password Error",
+  "forgotPasswordSuccess": "Forgot Password Success",
+  "resetEmailSent": "Reset email sent successfully",
+  "errorInvalidCredential": "Incorrect email or password. Please try again.",
+  "errorEmailInUse": "This email address is already registered.",
+  "errorWeakPassword": "The password entered is too weak. Try a longer combination.",
+  "errorInvalidEmail": "Please enter a valid email address.",
+  "errorUserDisabled": "This user account has been disabled. Contact support.",
+  "errorTooManyRequests": "Too many login attempts. Please try again later.",
+  "errorAuthUnexpected": "An unexpected authentication error occurred. Please try again.",
+  "googleSignInFailed": "Google sign in failed",
+  "accountPendingApproval": "Your account is waiting for approval from the store owner.",
+  "failedCreateAccount": "Failed to create user account",
+  "failedSendRequest": "Failed to send the request",
+  "goodMorning": "Good Morning,",
+  "goodAfternoon": "Good Afternoon,",
+  "goodEvening": "Good Evening,",
+  "admin": "Admin",
+  "pendingOrders": "Pending orders",
+  "failedLoadDashboard": "Failed to load dashboard:\n{error}",
+  "@failedLoadDashboard": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "lowStockWarning": "{count, plural, =1{1 product is running low on stock} other{{count} products are running low on stock}}",
+  "@lowStockWarning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recentOrders": "Recent Orders",
+  "seeAll": "See All",
+  "totalSales": "Total Sales",
+  "thisWeek": "This Week",
+  "thisMonth": "This Month",
+  "allTime": "All Time",
+  "myProducts": "My Products",
+  "searchProducts": "Search products...",
+  "sort": "Sort",
+  "sortBy": "Sort by",
+  "sortName": "Name",
+  "sortPriceLow": "Price: low to high",
+  "sortPriceHigh": "Price: high to low",
+  "sortStock": "Lowest stock first",
+  "failedLoadProducts": "Failed to load products:\n{error}",
+  "@failedLoadProducts": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noProductsFound": "No products found",
+  "productDetails": "Product Details",
+  "deleteProductTitle": "Delete product?",
+  "deleteProductMessage": "{name} will be removed from the store.",
+  "@deleteProductMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "description": "Description",
+  "noDescription": "No description",
+  "stockQuantity": "Stock Quantity",
+  "category": "Category",
+  "editProduct": "Edit Product",
+  "addProduct": "Add Product",
+  "updateProduct": "Update Product",
+  "saveProduct": "Save Product",
+  "addImageRequired": "Add at least one image",
+  "couldNotLoadCategories": "Could not load categories: {error}",
+  "@couldNotLoadCategories": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "productName": "Product Name",
+  "productNameRequired": "Product Name is required",
+  "productNameHint": "e.g. Wireless Headphones",
+  "descriptionHint": "Write a short description...",
+  "price": "Price",
+  "priceRequired": "Price is required",
+  "priceInvalid": "Price is not valid",
+  "stockRequired": "Stock Quantity is required",
+  "stockInvalid": "Stock Quantity is not valid",
+  "categoryRequired": "Category is required",
+  "selectCategory": "Select category",
+  "addProductImages": "Add Product Images",
+  "tapToUpload": "Tap to upload images",
+  "productUpdated": "Product updated successfully",
+  "productAdded": "Product added successfully",
+  "failedAddProduct": "Failed to add product",
+  "failedUpdateProduct": "Failed to update product",
+  "searchOrders": "Search orders...",
+  "failedLoadOrders": "Failed to load orders:\n{error}",
+  "@failedLoadOrders": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noOrdersFound": "No orders found",
+  "statusPending": "Pending",
+  "statusShipped": "Shipped",
+  "statusDelivered": "Delivered",
+  "statusCancelled": "Cancelled",
+  "itemsCount": "{count, plural, =1{1 item} other{{count} items}}",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "orderMarkedAs": "Order marked as {status}",
+  "@orderMarkedAs": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "updateStatus": "Update Status",
+  "updating": "Updating...",
+  "cancelOrderTitle": "Cancel order?",
+  "cancelOrderMessage": "The customer will see this order as cancelled.",
+  "cancelOrder": "Cancel order",
+  "keep": "Keep",
+  "orderDetails": "Order Details",
+  "processingDate": "Processing date",
+  "unknownCustomer": "Unknown customer",
+  "viewProfile": "View Profile",
+  "items": "Items",
+  "subtotal": "Subtotal",
+  "shipping": "Shipping",
+  "total": "Total",
+  "searchCustomers": "Search customers...",
+  "failedLoadCustomers": "Failed to load customers:\n{error}",
+  "@failedLoadCustomers": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noCustomersFound": "No customers found",
+  "ordersCount": "{count, plural, =1{1 order} other{{count} orders}}",
+  "@ordersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "username": "Username",
+  "address": "Address",
+  "totalSpent": "Total spent",
+  "storeSettings": "Store Settings",
+  "paymentMethods": "Payment Methods",
+  "shippingSettings": "Shipping Settings",
+  "storeName": "Store Name",
+  "storeNameRequired": "Store Name is required",
+  "contactEmail": "Contact Email",
+  "contactPhone": "Contact Phone",
+  "addressHint": "City, street",
+  "paymentMethodsDescription": "Choose the payment methods your store accepts.",
+  "paymentCash": "Cash on delivery",
+  "paymentCard": "Credit / debit card",
+  "paymentWallet": "Mobile wallet",
+  "shippingFee": "Shipping Fee",
+  "freeShippingOver": "Free Shipping Over",
+  "freeShippingHint": "Set to 0 to always charge the shipping fee.",
+  "amountRequired": "Amount is required",
+  "amountInvalid": "Amount is not valid",
+  "failedLoadSettings": "Failed to load settings:\n{error}",
+  "@failedLoadSettings": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSaved": "Settings saved successfully",
+  "loadSettingsFailed": "Failed to load settings",
+  "saveSettingsFailed": "Failed to save settings",
+  "storeOwner": "Store Owner",
+  "notifications": "Notifications",
+  "helpCenter": "Help Center",
+  "contactUs": "Contact Us",
+  "aboutApp": "About App",
+  "logOut": "Log Out",
+  "logoutFailed": "Logout failed: {error}",
+  "@logoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "logoutTitle": "Leaving So Soon?",
+  "logoutMessage": "Are you sure you want to log out of your Shoply Seller account?",
+  "logoutConfirm": "Yes, Log Out",
+  "logoutCancel": "Stay Here",
+  "language": "Language",
+  "appearance": "Appearance",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSystem": "System Default",
+  "languageEnglish": "English",
+  "languageArabic": "العربية",
+  "newOrders": "New orders",
+  "newOrdersSubtitle": "Show the number of pending orders on the bell",
+  "lowStock": "Low stock",
+  "lowStockSubtitle": "Warn on the home screen when a product has 5 or fewer left",
+  "helpQ1": "How do I add a product?",
+  "helpA1": "Open the Products tab and tap the + button. Add at least one image, fill in the details and tap Save Product.",
+  "helpQ2": "How do I hide a product from customers?",
+  "helpA2": "Turn off the switch next to the product in the Products tab, or the Active switch in the product details.",
+  "helpQ3": "How do I update an order?",
+  "helpA3": "Open the order from the Orders tab and tap Update Status. The customer sees the new status in their order history.",
+  "helpQ4": "Why does a product show \"Out of Stock\"?",
+  "helpA4": "Its stock quantity is 0. Edit the product and set a new stock quantity.",
+  "helpQ5": "How do I give someone else admin access?",
+  "helpA5": "They sign up in this app, then the store owner adds them to the admins collection in the Firebase console.",
+  "contactSubtitle": "Having a problem with the app? Send us a message.",
+  "subject": "Subject",
+  "subjectRequired": "Subject is required",
+  "messageHint": "Write your message...",
+  "messageRequired": "Message is required",
+  "send": "Send",
+  "sending": "Sending...",
+  "messageSent": "Message sent, we will get back to you soon",
+  "sendFailed": "Send failed: {error}",
+  "@sendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appVersion": "Version {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutTheApplication": "About the Application",
+  "aboutDescription": "Shoply Seller is the store management app for Shoply. Store owners can follow their sales, add and edit products, manage stock, update order statuses and see their customers, all from the same data the Shoply shopping app uses."
+}
